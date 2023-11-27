@@ -17,6 +17,13 @@ body {
 	padding: 20px;
 }
 
+html {
+  scroll-behavior: smooth;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  cursor: URL("../images/cursor/cursor.png"), auto !important;
+  }
+/*============================================================*/
 #blossom_container {
 	background-color: #f1f1f1;
 	position: absolute;
@@ -143,6 +150,7 @@ h1, h2, h3, h4, h5, h6 {
       padding-top: 5em; } }
 
 #colorlib-main-nav {
+  cursor: URL("../images/cursor/cursor.png"), auto;
   position: absolute;
   top: 0;
   bottom: 0;
@@ -243,6 +251,7 @@ h1, h2, h3, h4, h5, h6 {
       #colorlib-main-nav ul li.active a {
         color: #CA82F8; }
   #colorlib-main-nav .form-group {
+    cursor: URL("../images/cursor/cursor-click.png"), auto;
     margin-bottom: 40px;
     position: relative;
     width: 100%; }
@@ -1001,6 +1010,7 @@ header {
     margin-bottom: 10px; }
 
 .btn {
+
   margin-right: 4px;
   margin-bottom: 4px;
   font-size: 13px !important;
@@ -1025,6 +1035,7 @@ header {
     outline: none !important; }
 
 .btn-primary {
+  cursor: URL("../images/cursor/cursor-click.png"), auto;
   background: #CA82F8;
   color: #fff;
   border: 2px solid #CA82F8; }
